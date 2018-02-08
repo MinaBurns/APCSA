@@ -1,8 +1,8 @@
 //© A+ Computer Science  -  www.apluscompsci.com
-//Name -
-//Date -
-//Class -
-//Lab  -
+//Name - Mina Burns
+//Date - 2/7/18
+//Class - APCSPA
+//Lab  - 02e
 
 public class Circle
 {
@@ -11,13 +11,16 @@ public class Circle
 
 	public void setRadius(double rad)
 	{
+		radius = rad;
 	}
 
 	public void calculateArea( )
 	{
+		area = 3.14159*radius*radius;
 	}
 
 	public void print( )
 	{
+		System.out.println("The area is :: " + area);
 	}
 }
