@@ -15,31 +15,41 @@ public class Lab08i
 		Prime demo = new Prime();
 		
 		demo.setPrime(24);
-		out.println(demo);
+		demo.isPrime();
+		demo.toString();
 		
 		demo.setPrime(7);
-		out.println(demo);
+		demo.isPrime();
+		demo.toString();
 		
 		demo.setPrime(100);
-		out.println(demo);
+		demo.isPrime();
+		demo.toString();
 		
 		demo.setPrime(113);
-		out.println(demo);
-
+		demo.isPrime();
+		demo.toString();
+		
 		demo.setPrime(65535);
-		out.println(demo);
-
+		demo.isPrime();
+		demo.toString();
+		
+		
 		demo.setPrime(2);
-		out.println(demo);
-
+		demo.isPrime();
+		demo.toString();
+		
 		demo.setPrime(7334);
-		out.println(demo);
-
+		demo.isPrime();
+		demo.toString();
+		
 		demo.setPrime(7919);
-		out.println(demo);
-
+		demo.isPrime();
+		demo.toString();
+		
 		demo.setPrime(1115125003);
-		out.println(demo);
+		demo.isPrime();
+		demo.toString();
 		
 		
 		
