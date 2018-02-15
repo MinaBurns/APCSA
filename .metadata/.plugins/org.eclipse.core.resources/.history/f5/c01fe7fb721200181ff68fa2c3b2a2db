@@ -87,8 +87,6 @@ public class CharacterAnalyzer
 		{
 			return getChar() + " is a number. ASCII == " + getASCII() + "\n";
 		}
-		
-		return "";
 			
 	}
 }

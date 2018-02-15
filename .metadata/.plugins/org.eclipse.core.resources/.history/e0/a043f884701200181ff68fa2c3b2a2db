@@ -77,18 +77,16 @@ public class CharacterAnalyzer
 	{
 		if (isLower())
 		{
-		return getChar() + " is a lowercase character. ASCII == " + getASCII() + "\n";
+		return ""+getChar() + " is a lowercase character. ASCII == " + getASCII() + "\n";
 		}
 		else if (isUpper())
 		{
-			return getChar() + " is a uppercase character. ASCII == " + getASCII() + "\n";
+			return ""+getChar() + " is a uppercase character. ASCII == " + getASCII() + "\n";
 		}
 		else if (isNumber())
 		{
-			return getChar() + " is a number. ASCII == " + getASCII() + "\n";
+			return ""+getChar() + " is a number. ASCII == " + getASCII() + "\n";
 		}
-		
-		return "";
 			
 	}
 }

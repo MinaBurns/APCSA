@@ -16,7 +16,9 @@ public class Lab05d
 		out.print("Enter a letter :: ");
 		char letter = keyboard.next().charAt(0);
 		CharacterAnalyzer test = new CharacterAnalyzer(letter);
-		out.println(test);   //A
+		test.setChar(letter);
+		test.getASCII();
+		out.println(test.toString());   //A
 
 		//add more test cases
 		out.print("Enter a letter :: ");
@@ -24,21 +26,21 @@ public class Lab05d
 		CharacterAnalyzer test2 = new CharacterAnalyzer(letter2);
 		test2.setChar(letter2);
 		test2.getASCII();
-		out.println(test2); 
+		out.println(test2.toString()); 
 		
 		out.print("Enter a letter :: ");
 		char letter3 = keyboard.next().charAt(0);
 		CharacterAnalyzer test3 = new CharacterAnalyzer(letter3);
 		test3.setChar(letter3);
 		test3.getASCII();
-		out.println(test3); 
+		out.println(test3.toString()); 
 		
 		out.print("Enter a letter :: ");
 		char letter4 = keyboard.next().charAt(0);
 		CharacterAnalyzer test4 = new CharacterAnalyzer(letter4);
 		test4.setChar(letter4);
 		test4.getASCII();
-		out.println(test4); 
+		out.println(test4.toString()); 
 		
 		out.print("Enter a letter :: ");
 		char letter5 = keyboard.next().charAt(0);
@@ -71,6 +73,8 @@ public class Lab05d
 		out.print("Enter a letter :: ");
 		char letter9 = keyboard.next().charAt(0);
 		CharacterAnalyzer test9 = new CharacterAnalyzer(letter9);
+		test9.setChar(letter9);
+		test9.getASCII();
 		out.println(test9); 
 		
 		

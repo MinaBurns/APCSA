@@ -73,7 +73,7 @@ public class CharacterAnalyzer
 		return theChar;
 	}
 
-	public String toString()
+	public String toString( )
 	{
 		if (isLower())
 		{
@@ -87,8 +87,6 @@ public class CharacterAnalyzer
 		{
 			return getChar() + " is a number. ASCII == " + getASCII() + "\n";
 		}
-		
-		return "";
 			
 	}
 }

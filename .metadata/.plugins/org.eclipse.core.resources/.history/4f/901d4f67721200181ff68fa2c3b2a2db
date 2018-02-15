@@ -22,9 +22,8 @@ public class StringExplorer
 		
 		//  Try other methods here:
 		int notFoundPSN = sample.indexOf("slow");
-		System.out.println("sample.indexOf(\"slow\") = " + notFoundPSN);
-		//indexOf(string str) is different from indexOf(String str, int from Index) because the second one finds the index starting from a certain point.
-		
+		System.out.println("sample.indexOf(\"slow\") = " + notFoundPsn);
+
 	}
 
 }
