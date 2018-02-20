@@ -14,8 +14,8 @@ public class Lab10e
 		Scanner keyboard = new Scanner(System.in);
 		//char response;
 		out.print("Guessing Game-- Enter a number::");
-		int upperbound = keyboard.nextInt();
-		GuessingGame one = new GuessingGame(upperbound);
+		int num = keyboard.nextInt();
+		GuessingGame one = new GuessingGame(num);
 		one.playGame();
 		//one.toString();
 	}

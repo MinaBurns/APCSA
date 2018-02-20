@@ -21,11 +21,10 @@ public class GuessingGame
 
 	public void playGame()
 	{
-		randomnum = (int) Math.random()*upperBound;
 		Scanner keyboard = new Scanner(System.in);
 		int counter = 1;
-		System.out.println("Enter a number between 1 and " + upperBound);
 		int num = keyboard.nextInt();
+		System.out.println("Enter a number between 1 and " + upperBound);
 		while(num != randomnum)
 		{
 			if (num >= 1 && num <= randomnum)
