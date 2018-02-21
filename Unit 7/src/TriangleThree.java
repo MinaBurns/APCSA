@@ -1,4 +1,4 @@
-//© A+ Computer Science  -  www.apluscompsci.com
+//Â© A+ Computer Science  -  www.apluscompsci.com
 //Name -
 //Date -
 //Class -
@@ -13,7 +13,8 @@ public class TriangleThree
 
 	public TriangleThree()
 	{
-		
+		size = 0;
+		letter = a;
 	}
 
 	public TriangleThree(int count, String let)
@@ -26,7 +27,15 @@ public class TriangleThree
 	{
 		for (int i = 0; i = count; i++)
 		{
-			
+			for (int j = 0; j < count-i; j++)
+			{
+				out.print( );
+			}
+			for(int k = 0; k < i-1; k++)
+			{
+				out.print(let);
+			}
+			out.println(let);
 		}
 	}
 
