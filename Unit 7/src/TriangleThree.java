@@ -19,8 +19,7 @@ public class TriangleThree
 
 	public TriangleThree(int count, String let)
 	{
-		size = count;
-		letter = let;
+		setTriangle(let, count);
 	}
 
 	public void setTriangle( String let, int sz )
