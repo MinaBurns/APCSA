@@ -1,4 +1,4 @@
-//© A+ Computer Science  -  www.apluscompsci.com
+//Â© A+ Computer Science  -  www.apluscompsci.com
 //Name -
 //Date -
 //Class - 
@@ -12,7 +12,8 @@ public class Lab11c
    {
 	   Scanner keyboard = new Scanner(System.in);
 
-
+		TriangleThree demo = new TriangleThree():
+	   	demo.TriangleThree(SOME VALUE, SOME INTEGER);
 
 
 
