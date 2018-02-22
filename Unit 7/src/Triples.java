@@ -17,14 +17,12 @@ public class Triples
 
 	public Triples(int num)
 	{
-
-
+		setNum(num);
 	}
 
 	public void setNum(int num)
 	{
-
-
+		toStirng();
 	}
 	
 	private int greatestCommonFactor(int a, int b, int c)
@@ -42,19 +40,19 @@ public class Triples
 		int b = 0;
 		int c = 0;
 		String output="";
-    		for (int x = 1; x < limit; ++x) 
+    		for (int x = 1; x < number; ++x) 
 		{
        			int xx = x * x;
         		int y = x + 1;
         		int z = y + 1;
-        		while (z <= limit) 
+        		while (z <= number) 
 			{
             			int zz = xx + y * y;
             			while (z * z < zz) 
 				{
 					++z;
 				}
-            			if (z * z == zz && z <= limit) 
+            			if (z * z == zz && z <= number) 
 				{
 					if 
                 			int a = x;
