@@ -1,4 +1,4 @@
-//© A+ Computer Science  -  www.apluscompsci.com
+//Â© A+ Computer Science  -  www.apluscompsci.com
 //Name -
 //Date -
 //Class - 
@@ -38,13 +38,32 @@ public class Triples
 
 	public String toString()
 	{
+		int a = 0;
+		int b = 0;
+		int c = 0;
 		String output="";
-
-
-
-
-
-
-		return output+"\n";
+    		for (int x = 1; x < limit; ++x) 
+		{
+       			int xx = x * x;
+        		int y = x + 1;
+        		int z = y + 1;
+        		while (z <= limit) 
+			{
+            			int zz = xx + y * y;
+            			while (z * z < zz) 
+				{
+					++z;
+				}
+            			if (z * z == zz && z <= limit) 
+				{
+					if 
+                			int a = x;
+					int b = y;
+					int c = z;
+					output = output+ a + ", " + b + ", " + c + "\n";
+            			}
+            			++y;
+        		}
+    		}
+    		return output + "\n";
 	}
-}
