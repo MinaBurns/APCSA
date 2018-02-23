@@ -1,4 +1,4 @@
-//© A+ Computer Science  -  www.apluscompsci.com
+//Â© A+ Computer Science  -  www.apluscompsci.com
 //Name -
 //Date -
 //Class - 
@@ -10,12 +10,21 @@ public class Lab11c
 {
    public static void main( String args[] )
    {
+<<<<<<< HEAD
 	   	   
 	   TriangleThree demo = new TriangleThree(3, "A");
 	   TriangleThree demo2 = new TriangleThree(7, "X");
 	   TriangleThree demo3 = new TriangleThree(1,"R");
 	   TriangleThree demo4 = new TriangleThree(5, "T");
 	   TriangleThree demo5 = new TriangleThree(4, "W");
+=======
+	   Scanner keyboard = new Scanner(System.in);
+
+		TriangleThree demo = new TriangleThree():
+	   	demo.TriangleThree(SOME VALUE, SOME INTEGER);
+
+
+>>>>>>> e1aa3b63ddb5ee05711507732c3132ae4086305d
 
 	}
 }
