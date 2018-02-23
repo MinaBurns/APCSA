@@ -15,6 +15,7 @@ public class Lab11c
 	   TriangleThree demo3 = new TriangleThree(1,"R");
 	   TriangleThree demo4 = new TriangleThree(5, "T");
 	   TriangleThree demo5 = new TriangleThree(4, "W");
+	 //  Scanner keyboard = new Scanner(System.in);
 
 	}
 }
