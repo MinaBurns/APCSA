@@ -5,44 +5,52 @@
 //Lab  -
 
 import java.util.Scanner;
+import java.util.Random;
+
 import static java.lang.System.*;
 
 public class GuessingGame
 {
 	private int upperBound;
-	private int randomnum;
+	//private int randomnum;
 
 	public GuessingGame(int stop)
 	{
 		upperBound = stop;
-		randomnum = (int) Math.random()*upperBound;
-
+		
 	}
 
 	public void playGame()
 	{
-		randomnum = (int) Math.random()*upperBound;
+		
+		Random rand = new Random();
+		int rands = rand.nextInt(upperBound+1) + 1;
+		
 		Scanner keyboard = new Scanner(System.in);
-		int counter = 1;
-		System.out.println("Enter a number between 1 and " + upperBound);
-		int num = keyboard.nextInt();
-		while(num != randomnum)
+		out.print("Let's play Guessing Game.");
+		int upperBound = keyboard.nextInt();
+		
+		out.print("Enter a number between 1 and " + upperBound + " :");
+		int response = keyboard.nextInt();
+		int runnumber = 1;
+		
+		while(response != rands)
 		{
-			if (num >= 1 && num <= randomnum)
-			{
-				System.out.println("out of bounds");
-			}
-			System.out.println("Enter a number between 1 and " + upperBound);
-			num = keyboard.nextInt();
-			counter++;
+			//if (response >= 1 && response > upperBound)
+			//{
+				//System.out.println("out of bounds");
+			//}
+			out.print("Enter a number between 1 and " + upperBound);
+			int responseB = keyboard.nextInt();
+			response = responseB;
+			runnumber++;
 		}
-		System.out.println("It took you " + counter + " guesses to guess" + randomnum + " correctly");
-		System.out.println("You guessed wrong " + (double)((counter-1)/counter) + " percent of the time");
+		if (response == rands)
+		{
+		double percent = 1-(1/(runnumber));
+		System.out.println("It took you " + (runnumber) + " guesses to guess " + rands + " correctly");
+		System.out.println("You guessed wrong " + percent + " percent of the time");
+		}
 	}
 
-	public String toString()
-	{
-		String output="";
-		return output;
-	}
 }

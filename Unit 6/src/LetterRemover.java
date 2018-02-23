@@ -22,8 +22,6 @@ public class LetterRemover
 		setRemover(sentence, lookFor);
 	}
 	
-	
-	
 	public void setRemover(String s, char rem)
 	{
 		sentence = s;

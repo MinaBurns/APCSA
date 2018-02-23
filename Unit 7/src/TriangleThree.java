@@ -13,20 +13,28 @@ public class TriangleThree
 
 	public TriangleThree()
 	{
-		
+		size = 0;
+		letter = "a";
 	}
 
 	public TriangleThree(int count, String let)
 	{
-		size = count;
-		letter = let;
+		setTriangle(let, count);
 	}
 
 	public void setTriangle( String let, int sz )
 	{
-		for (int i = 0; i = count; i++)
+		for (int i = 0; i < sz; i++)
 		{
-			
+			for (int j = 0; j < sz-i; j++)
+			{
+				out.print(" ");
+			}
+			for(int k = 1; k <= i; k++)
+			{
+				out.print(let);
+			}
+			out.println(let);
 		}
 	}
 

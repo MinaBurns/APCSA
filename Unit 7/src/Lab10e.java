@@ -12,10 +12,8 @@ public class Lab10e
 	public static void main(String args[])
 	{
 		Scanner keyboard = new Scanner(System.in);
-		//char response;
-		out.print("Guessing Game-- Enter a number::");
-		int upperbound = keyboard.nextInt();
-		GuessingGame one = new GuessingGame(upperbound);
+		int num = 0;
+		GuessingGame one = new GuessingGame(num);
 		one.playGame();
 		//one.toString();
 	}
