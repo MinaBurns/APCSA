@@ -14,11 +14,5 @@ public class Lab11j
 		Triples one = new Triples();
 		one.setNum(110);
 		out.println(one.toString());
-		Scanner keyboard = new Scanner(System.in);
-		//char response;
-		out.print("Enter the upper limit");
-		int limit = keyboard.nextInt();
-		Triples one = new Triples(limit);
-		one.toString();
 	}
 }

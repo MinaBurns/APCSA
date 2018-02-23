@@ -23,7 +23,6 @@ public class Triples
 	public void setNum(int num)
 	{
 		number = num;
-		toStirng();
 	}
 	
 	private boolean requirementOne(int a, int b, int c)
