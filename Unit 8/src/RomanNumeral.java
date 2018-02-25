@@ -1,4 +1,4 @@
-//© A+ Computer Science  -  www.apluscompsci.com
+//Â© A+ Computer Science  -  www.apluscompsci.com
 //Name -
 //Date -
 //Class -
@@ -19,32 +19,43 @@ public class RomanNumeral
 
 	public RomanNumeral(String str)
 	{
-
-
-
+		roman = str;
+		number = 0;
+		//setRoman(str);
 	}
 
 	public RomanNumeral(Integer orig)
 	{
-
-
-
+		number = orig;
+		roman = "";
+		//setNumber(orig);
 	}
 
 	public void setNumber(Integer num)
 	{
-
-
-
-
-
+		for (int i = 0; i < NUMBERS.Length; i++)
+		{
+			if (num >= NUMBERS[i])
+			{
+				roman = roman + LETTERS[i];
+				num = num - NUMBERS[i];
+			}
+		}
 	}
 
 	public void setRoman(String rom)
 	{
-
-
-
+		for (int i = 0; i < rom.length; i++)
+		{
+			if (rom.charAt(i) = LETTERS[i])
+			{
+				number = number + NUMBERS[i];
+				else if (rom.substring(i, i+1) = LETTERS[i])
+				{
+					number = number + NUMBERS[i];
+				}
+			}
+		}
 	}
 
 	public Integer getNumber()
